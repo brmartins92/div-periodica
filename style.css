@@ -1,0 +1,24 @@
+.elemento{
+font:bold 16px Tahoma, Geneva, sans-serif;
+font-style:normal;
+color:#ffffff;
+background:#1568db;
+border:2px dotted #ffffff;
+text-shadow:-1px -1px 0px #222222;
+box-shadow:-2px 0px 0px #000000;
+-moz-box-shadow:-2px 0px 0px #000000;
+-webkit-box-shadow:-2px 0px 0px #000000;
+border-radius:14px 14px 14px 14px;
+-moz-border-radius:14px 14px 14px 14px;
+-webkit-border-radius:14px 14px 14px 14px;
+width:35px;
+padding:22px 31px;
+margin:0 auto;
+}
+
+.elemento:active{
+cursor:pointer;
+position:relative;
+top:2px;
+}
+
