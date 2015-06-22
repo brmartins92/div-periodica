@@ -1,18 +1,18 @@
+body{
+	
+}
+/* classes */
 .elemento{
-font:bold 16px Tahoma, Geneva, sans-serif;
+font:bold 14px Tahoma, Geneva, sans-serif;
 font-style:normal;
 color:#ffffff;
 background:#1568db;
-border:2px dotted #ffffff;
-text-shadow:-1px -1px 0px #222222;
-box-shadow:-2px 0px 0px #000000;
--moz-box-shadow:-2px 0px 0px #000000;
--webkit-box-shadow:-2px 0px 0px #000000;
-border-radius:14px 14px 14px 14px;
--moz-border-radius:14px 14px 14px 14px;
--webkit-border-radius:14px 14px 14px 14px;
-width:35px;
-padding:22px 31px;
+width:60px;
+padding-top: 5px;
+padding-left: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+height: 55px;
 margin:0 auto;
 }
 
@@ -22,3 +22,13 @@ position:relative;
 top:2px;
 }
 
+.largura_familia{
+  width: 60px;
+}
+.name_element{
+	font-size: 8px;
+}
+#div_1a{
+  height: auto; 	
+  float: left;
+}
