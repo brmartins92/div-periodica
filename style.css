@@ -1,4 +1,5 @@
 body{
+
 	
 }
 /* classes */
@@ -7,12 +8,12 @@ font:bold 14px Tahoma, Geneva, sans-serif;
 font-style:normal;
 color:#ffffff;
 background:#1568db;
-width:60px;
+width:62px;
 padding-top: 5px;
 padding-left: 5px;
 padding-right: 5px;
 padding-bottom: 5px;
-height: 55px;
+height: 58px;
 margin:0 auto;
 }
 
@@ -23,12 +24,28 @@ top:2px;
 }
 
 .largura_familia{
-  width: 60px;
+  width: 62px;
 }
 .name_element{
 	font-size: 8px;
 }
+.num_atomico{
+	font-size: 10px;
+	color: black;
+}
+.info_familia{
+	font-size: 14px;
+}
+#tabela{
+	width: 1120px;
+}
+
 #div_1a{
   height: auto; 	
   float: left;
+}
+#div_2a{
+  height: auto; 	
+  float: left;
+  padding-top: 58px;
 }
