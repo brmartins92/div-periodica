@@ -40,11 +40,17 @@ top:2px;
 	width: 1120px;
 }
 
-#div_1a{
+#div_1a,
+#div_8a{
   height: auto; 	
   float: left;
 }
-#div_2a{
+#div_2a,
+#div_3a,
+#div_4a,
+#div_5a,
+#div_6a,
+#div_7a{
   height: auto; 	
   float: left;
   padding-top: 58px;
@@ -53,7 +59,12 @@ top:2px;
 #div_4b,
 #div_5b,
 #div_6b,
-#div_7b{
+#div_7b,
+#div_81b,
+#div_82b,
+#div_83b,
+#div_1b,
+#div_2b{
   height: auto; 	
   float: left;
   padding-top: 174px;
