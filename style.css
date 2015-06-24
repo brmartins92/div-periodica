@@ -40,8 +40,14 @@ top:2px;
 .gasoso{
 	color: blue;
 }
+.solido{
+	color: black;
+}
 .hidrogenio{
-	background:green;
+	background-color: #008000;
+}
+.metais_alcalinos{
+	background-color:#D2691E;
 }
 #tabela{
 	width: 1120px;
