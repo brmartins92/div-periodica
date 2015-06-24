@@ -7,18 +7,17 @@ body{
 font:bold 14px Tahoma, Geneva, sans-serif;
 font-style:normal;
 color:#ffffff;
-background:#1568db;
 width:62px;
-padding-top: 5px;
-padding-left: 5px;
-padding-right: 5px;
-padding-bottom: 5px;
+padding-top: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-bottom: 0px;
 height: 58px;
 margin:0 auto;
 }
 
 .elemento:active{
-cursor:pointer;
+
 position:relative;
 top:2px;
 }
@@ -28,13 +27,21 @@ top:2px;
 }
 .name_element{
 	font-size: 8px;
+	color: black;
 }
 .num_atomico{
 	font-size: 10px;
 	color: black;
+	clear: both;
 }
 .info_familia{
 	font-size: 14px;
+}
+.gasoso{
+	color: blue;
+}
+.hidrogenio{
+	background:green;
 }
 #tabela{
 	width: 1120px;
