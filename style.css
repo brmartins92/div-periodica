@@ -43,6 +43,9 @@ top:2px;
 .solido{
 	color: black;
 }
+.desconhecido{
+	color: #C0C0C0;
+}
 .hidrogenio{
 	background-color: #008000;
 }
@@ -60,8 +63,8 @@ top:2px;
 }
 .actinideos{
 	background-color:#808000;
-
 }
+
 #tabela{
 	width: 1120px;
 }
