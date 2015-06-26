@@ -47,7 +47,7 @@ top:2px;
 	color: black;
 }
 .desconhecido{
-	color: #C0C0C0;
+	color: #A9A9A9;
 }
 .hidrogenio{
 	background-color: #008000;
@@ -76,6 +76,9 @@ top:2px;
 
 .metais_representativo{
 	background-color: #F0E68C;
+}
+.halogenios{
+	background-color: #40E0D0;
 }
 
 #tabela{
