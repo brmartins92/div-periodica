@@ -123,13 +123,39 @@ top:2px;
   padding-top: 174px;
 }
 #div_lantanideos{
-	clear: both;
+	
 	float:right;
 	margin-right: 4px;
 	padding-top: 14px;
+	width: auto;
 }
 #div_actinideos{
-	clear: both;
+	
 	float:right;
 	margin-right: 4px;
+	width: auto;
+}
+#div_olograma_elemento{
+	float: left;
+	width: 150px;
+}
+#div_legenda{
+	position: absolute;
+	margin-left: 211;
+	margin-top: 16px;
+	border: 1px;
+	width: 600px;
+	height: 300px;
+}
+
+#div_legend_col1,
+#div_legend_col2,
+#div_legend_col3{
+	float: left;
+	width: auto;
+	margin-left: 20px;
+}
+
+.size1{
+	font-size: 12px;
 }
