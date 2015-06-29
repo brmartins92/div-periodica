@@ -84,6 +84,11 @@ top:2px;
 	background-color: #4682B4;
 }
 
+.margin_lantanideos,
+.margin_actinideos{
+	margin-right: -4px;
+}
+
 #tabela{
 	width: 1120px;
 }
@@ -116,4 +121,15 @@ top:2px;
   height: auto; 	
   float: left;
   padding-top: 174px;
+}
+#div_lantanideos{
+	clear: both;
+	float:right;
+	margin-right: 4px;
+	padding-top: 14px;
+}
+#div_actinideos{
+	clear: both;
+	float:right;
+	margin-right: 4px;
 }
