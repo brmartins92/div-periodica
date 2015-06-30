@@ -11,7 +11,12 @@ window.onload = function(){
 
 function metais_Alcalinos(){
 	metais_alcalinos.onmouseover = function(){
-    hidden_all_elemento('metais_alcalinosss');
+    show_all_elemento(); 
+    hidden_all_elemento('metais_alcalinos');
+  }
+  metais_alcalinos_terrosos.onmouseover = function(){
+    show_all_elemento(); 
+    hidden_all_elemento('metais_alcalinos_terrosos');
   }
   tabela.onmouseover = function(){
     show_all_elemento();
@@ -25,7 +30,8 @@ function hidden_all_elemento(valor){
 
   var elementos = [
     "nao_metais",
-    "metais_alcalinos"
+    "metais_alcalinos",
+    "metais_alcalinos_terrosos"
   ];
 
   for(j=0;j<elementos.length;j++){
@@ -38,11 +44,11 @@ function hidden_all_elemento(valor){
   }  
 }
 
-function show_all_elemento(){
-    
+function show_all_elemento(){   
     var elementos = [
     "nao_metais",
-    "metais_alcalinos"
+    "metais_alcalinos",
+    "metais_alcalinos_terrosos"
     ];
     for(j=0;j<elementos.length;j++){
     var getClass = document.getElementsByClassName(elementos[j]);
