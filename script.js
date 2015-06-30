@@ -4,12 +4,12 @@ window.onload = function(){
   pag = pag.split("/");
   switch(pag[5]){
     case 'index.html':
-    metais_Alcalinos();
+    Confg_Tipo_Elemento();
     break; 
   }
 }
 
-function metais_Alcalinos(){
+function Confg_Tipo_Elemento(){
 	metais_alcalinos.onmouseover = function(){
     show_all_elemento(); 
     hidden_all_elemento('metais_alcalinos');
