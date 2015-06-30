@@ -4,32 +4,37 @@
 	<link rel='stylesheet' type='text/css' href='style.css' />
 	<meta name=apple-mobile-web-app-capable content=yes>
 	<meta name=apple-mobile-web-app-status-bar-style content=black>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /> -->
 </head>
 <body>
-	<script type="text/javascript" src="script.js"> </script>
 	<center>
 		<div id='div_legenda'>
 			<div id='div_legend_col1'>
-				<p class='size1 metais_alcalinos'>Metais Alcalinos</p>
+				<p class='size1 metais_alcalinos' id ='metais_alcalinos'>Metais Alcalinos</p>
 				<p class='size1 metais_alcalinos_terrosos'>Metais Alcalinos-terrosos</p>
-				<p class='size1 metais_transicao'>Metais de Transição</p>
-				<p class='size1 lantanideos'>Lantanídeos</p>
-				<p class='size1 actinideos'>Actinídeos</p>
 			</div>
 			<div id='div_legend_col2'>
+				<p class='size1 metais_transicao'>Metais de Transição</p>
+				<p class='size1 lantanideos'>Lantanídeos</p>
+			</div>
+			<div id='div_legend_col3'>
+				<p class='size1 actinideos'>Actinídeos</p>
 				<p class='size1 metais_representativo'>Metais Representativos</p>
+			</div>
+			<div id='div_legend_col4'>
 				<p class='size1 semi_metais'>Semi-Metais</p>
 				<p class='size1 nao_metais'>Não-Metais</p>
+			</div>
+			<div id='div_legend_col5'>
 				<p class='size1 halogenios'>Halogênios</p>
 				<p class='size1 gases_nobres'>Gases Nobres</p>
 			</div>
-			<div id='div_legend_col3'>
-				<p class='size1 gasoso'>Gasoso</p>
-				<p class='size1 liquido'>Líquido</p>
-				<p class='size1 solido'>Sólido</p>
-				<p class='size1 desconhecido'>Desconhecido</p>
-			</div>
+		</div>
+		<div id='div_legend_estado'>
+			<p class='size1 gasoso'>Gasoso</p>
+			<p class='size1 liquido'>Líquido</p>
+			<p class='size1 solido'>Sólido</p>
+			<p class='size1 desconhecido'>Desconhecido</p>
 		</div>
 		<div id='tabela'>
 			<div id='div_1a' class='largura_familia'>
@@ -695,5 +700,7 @@
 			</div>
 		</div>
 	</center>
+	<script type="text/javascript" src="jquery-2.1.3.min.js"> </script>
+	<script type="text/javascript" src="script.js"> </script>
 </body>
 </html>
