@@ -151,11 +151,14 @@ top:2px;
 #div_legend_col1,
 #div_legend_col2,
 #div_legend_col3,
-#div_legend_col4,
+#div_legend_col4{
+	float: left;
+	width: auto;
+	margin-right: 20px;
+}
 #div_legend_col5{
 	float: left;
 	width: auto;
-	margin-left: 20px;
 }
 #div_legend_estado{
 	position: absolute;
