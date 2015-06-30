@@ -26,8 +26,10 @@ top:2px;
   width: 62px;
 }
 .name_element{
-	font-size: 8px;
+	
 	color: black;
+	font-style:normal;
+	font: bold 10px Times New Roman, Geneva, sans-serif;
 }
 .num_atomico{
 	font-size: 10px;
