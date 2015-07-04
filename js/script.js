@@ -4,22 +4,11 @@ window.onload = function(){
   switch(pag[5]){
     case 'index.html':
     Confg_Tabela_Tipo();
+    modal2();
     break; 
   }
 }
-$(document).ready(function() {
-  $('#h4').click(function(e) {
-    e.preventDefault();
-    var id = '#dialog';
-    $('#mask').fadeIn(1000);
-    $('#mask').fadeTo("slow",0.8);
-    $(id).fadeIn(2000);
-  });
-  $('.window .close').click(function (e) {
-    e.preventDefault();
-    $('#mask, .window').hide();
-  });
-});
+
 
 function Confg_Tabela_Tipo(){
  nao_metais.onmouseover = function(){
