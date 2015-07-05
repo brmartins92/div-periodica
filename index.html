@@ -7,22 +7,7 @@
 	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /> -->
 </head>
 <body>
-<center>
-
-<button id='h4'>Modalllll</button>
-<div id="boxes">
-	<!-- #personalize sua janela modal aqui -->
-	<div id="dialog" class="window">
-		<a href="#" class="close">Fechar[X]</a>
-		<b>Teste de Janela Modal</b>
-		<br>Aqui vai o conteúdo da sua Janela Modal Simples.<br>
-		<input type='text'>
-	</div>
-</div>
-
-
-   <!--
-
+	<center>
 		<div id='div_legenda'>
 			<div id='div_legend_col1'>
 				<p class='size1 metais_alcalinos' id ='metais_alcalinos'>Metais Alcalinos</p>
@@ -54,7 +39,7 @@
 		<div id='tabela'>
 			<div id='div_1a' class='largura_familia'>
 				<span class='info_familia'>1A</span>
-				<button class='elemento nao_metais' > 
+				<button class='elemento nao_metais' id='btn_h'> 
 					<span class='num_atomico'>1</span><br>
 					<span class='gasoso'>H </span><br>
 					<span class='name_element'> Hidrogenio</span>
@@ -714,9 +699,50 @@
 				</button>
 			</div>
 		</div>
-	-->
 	</center>
-  
+	<div id="boxes">
+		<div id="dialog" class="window">
+			<div id='barra_modal'>
+				<div id='title_modal'>Hidrogenio</div>
+				<div id='opc_modal'><button class="close">[x]</button></div>
+			</div>
+			<div id='div_img_modal'>
+				<img src="imagens/hidrogenio.jpg" id='img_modal'>
+			</div>
+			<label class='lbinfo'>
+				<legend>Numero Atomico</legend>
+				<input type='text' class='lbinfo'>
+			</label>
+			<label class='lbinfo'>
+				<legend>Numero Atomico</legend>
+				<input type='text' class='lbinfo'>
+			</label>
+			<label class='lbinfo'>
+				<legend>Numero Atomico</legend>
+				<input type='text'class='lbinfo'>
+			</label>
+			<label class='lbinfo'>
+				<legend>Numero Atomico</legend>
+				<input type='text'class='lbinfo'>
+			</label>
+			<label class='lbinfo'>
+				<legend>Numero Atomico</legend>
+				<input type='text'class='lbinfo'>
+			</label>
+			<label class='lbinfo'>
+				<legend>Numero Atomico</legend>
+				<input type='text'class='lbinfo'>
+			</label>
+			<label class='lbinfo'>
+				<legend>Numero Atomico</legend>
+				<input type='text'class='lbinfo'>
+			</label>
+			<label class='lbinfo'>
+				<legend>Numero Atomico</legend>
+				<input type='text'class='lbinfo'>
+			</label>
+		</div>
+	</div>
 	<script type="text/javascript" src="js/jquery-2.1.3.min.js"> </script>
 	<script type="text/javascript" src="js/script.js"> </script>
 	<script type="text/javascript" src="js/modal.js"> </script>
