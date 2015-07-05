@@ -11,8 +11,18 @@ $(document).ready(function(){
 function modal(){
   $('#btn_h').click(function(e) {
     e.preventDefault();
+    $('#title_modal').text('Hidrogênio');
+    $('#modal_num_atomico').val('1');
     $('#dialog').fadeIn(2000);
   });
+
+
+
+
+
+
+
+
 
   $('.window .close').click(function (e) {
     e.preventDefault();
