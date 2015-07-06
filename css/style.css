@@ -22,11 +22,11 @@ padding:20px;
 
 /* Personalize a janela modal aqui. Você pode adicionar uma imagem de fundo. */
 #boxes #dialog {
-width:740px;
-height:320px;
+width:900px;
+height:450px;
 background-color: #C0C0C0;
-margin-left: 18%;
-margin-top: 100px;
+margin-left: 14%;
+margin-top: 30px;
 }
 /* posiciona o link para fechar a janela */
 .close{
@@ -39,7 +39,7 @@ text-align:right;
 }
 .lbinfo{
 	float: left;
-	width: 200px;
+	width: 350px;
 }
 #barra_modal{
 	height: 50px;
@@ -55,7 +55,7 @@ text-align:right;
 #opc_modal{
 	float: right;
 }
-#div_img_modal{
+#modal_img{
 	float:left;
 	width: 120px;
 	height: 124px;
