@@ -13,6 +13,7 @@ function modal(){
     e.preventDefault();
     $('#title_modal').text('Hidrogênio');
     $('#modal_num_atomico').val('1');
+    $('#div_img_modal').html("<img src='imagens/hidrogenio.jpg' id='img_modal'>");
     $('#dialog').fadeIn(2000);
   });
 
