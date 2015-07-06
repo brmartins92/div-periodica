@@ -33,21 +33,18 @@ function modal(){
     $('#modal_condutividade_aletrica').val("-");
     $('#modal_configuracao_eletronica').val("1s1");
     $('#modal_orbital').val("1s1");
-    $('#dialog').fadeIn(2000);
+   abrir_modal();
   });
-
-
-
-
-
-
-
-
-
 
   $('.window .close').click(function (e) {
     e.preventDefault();
     $('.window').hide();
   });
+}
+
+
+
+function abrir_modal(){
+  $('#dialog').slideDown(1000);
 }
 
