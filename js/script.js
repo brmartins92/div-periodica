@@ -1,12 +1,12 @@
 window.onload = function(){
-  var pag = window.location.pathname;
-  pag = pag.split("/");
-  switch(pag[5]){
-    case 'index.html':
+  //var pag = window.location.pathname;
+  //pag = pag.split("/");
+  //switch(pag[5]){
+  //  case 'index.html':
     Confg_Tabela_Tipo();
-    modal2();
-    break; 
-  }
+    
+    //break; 
+  //}
 }
 
 
