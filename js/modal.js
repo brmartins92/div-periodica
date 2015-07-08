@@ -1,11 +1,11 @@
 $(document).ready(function(){
-  var pag = window.location.pathname;
-  pag = pag.split("/");
-  switch(pag[5]){
-    case 'index.html':
+  //var pag = window.location.pathname;
+  //pag = pag.split("/");
+  //switch(pag[5]){
+    //case 'index.html':
     modal();
-    break; 
-  }
+    //break; 
+  //}
 });
 
 function modal(){
