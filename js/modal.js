@@ -72,6 +72,6 @@ function modal(){
 
 
 function abrir_modal(){
-  $('#dialog').slideDown(1000);
+  $('#dialog').slideDown(1000).draggable();
 }
 
