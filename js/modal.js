@@ -116,6 +116,33 @@ function modal(){
         abrir_modal();
     });
 
+    $('#btn_rb').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('Rubídio ');
+        $('#modal_num_atomico').val('37');
+        $('#modal_img').html("<img src='imagens/rubidio.jpg' id='img_modal'>");
+        $('#modal_origem').val('Natural');
+        $('#modal_descoberto').val("Bunsen e Kirchoff / 1861");
+        $('#modal_origem_nome').val("latim rubidius que significa vermelho escuro");
+        $('#modal_massa_atomica').val("85,4678(3)");
+        $('#modal_volume_atomico').val("55,9 cm³/mol");
+        $('#modal_densidade').val("1,53 g/cm³");
+        $('#modal_fusao').val("38,89 °C");
+        $('#modal_ebulicao').val("688 °C");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("Cúbica de Corpo Centrado");
+        $('#modal_raio_atomico').val("2,48 Å");
+        $('#modal_eletronegatividade').val("0,82");
+        $('#modal_ionizacao').val("4,177 V");
+        $('#modal_raio_covalente').val("2,16 Å");
+        $('#modal_raio_ionico').val("1,48E+1 Å");
+        $('#modal_camadas').val("2,8,18,8,1");
+        $('#modal_condutividade_aletrica').val("47,8 E6/ohms/m");
+        $('#modal_configuracao_eletronica').val("[Kr] 5s1");
+        $('#modal_orbital').val("5s1");
+        abrir_modal();
+    });
+
   $('.window .close').click(function (e) {
     e.preventDefault();
     $('.window').hide();
