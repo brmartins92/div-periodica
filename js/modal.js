@@ -142,6 +142,60 @@ function modal(){
         $('#modal_orbital').val("5s1");
         abrir_modal();
     });
+    
+    $('#btn_cs').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('Césio');
+        $('#modal_num_atomico').val('55');
+        $('#modal_img').html("<img src='imagens/cesio.jpg' id='img_modal'>");
+        $('#modal_origem').val('Natural');
+        $('#modal_descoberto').val("Robert Bunsen e Gustav Kirchhoff / 1860 ");
+        $('#modal_origem_nome').val("Do lat. cient. caesium < lat. caesiu, 'esverdeado'");
+        $('#modal_massa_atomica').val("132,9054519(2)");
+        $('#modal_volume_atomico').val("70 cm³/mol");
+        $('#modal_densidade').val("1,87 g/cm³");
+        $('#modal_fusao').val("28,5 °C");
+        $('#modal_ebulicao').val("678,4 °C");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("Cúbica de Corpo Centrado");
+        $('#modal_raio_atomico').val("2,67 Å");
+        $('#modal_eletronegatividade').val("0,79");
+        $('#modal_ionizacao').val("3,894 V");
+        $('#modal_raio_covalente').val("2,35 Å");
+        $('#modal_raio_ionico').val("1,69E+1  Å");
+        $('#modal_camadas').val("2,8,18,18,8,1");
+        $('#modal_condutividade_aletrica').val("");
+        $('#modal_configuracao_eletronica').val("[Xe] 6s1");
+        $('#modal_orbital').val("6s1");
+        abrir_modal();
+    });
+    
+    $('#btn_fr').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('Frâncio');
+        $('#modal_num_atomico').val('87');
+        $('#modal_img').html("<img src='imagens/francio.jpg' id='img_modal'>");
+        $('#modal_origem').val('Natural');
+        $('#modal_descoberto').val("Perey / 1939 ");
+        $('#modal_origem_nome').val("De topônimo França + -io³; latim cient. francium");
+        $('#modal_massa_atomica').val("223,0197*");
+        $('#modal_volume_atomico').val("");
+        $('#modal_densidade').val("");
+        $('#modal_fusao').val("27 °C");
+        $('#modal_ebulicao').val("677 °C");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("---");
+        $('#modal_raio_atomico').val("1,34 Å");
+        $('#modal_eletronegatividade').val("0,7");
+        $('#modal_ionizacao').val("0 V");
+        $('#modal_raio_covalente').val("---");
+        $('#modal_raio_ionico').val("1,76E+1 Å");
+        $('#modal_camadas').val("2,8,18,32,18,8,1");
+        $('#modal_condutividade_aletrica').val("---");
+        $('#modal_configuracao_eletronica').val("[Rn] 7s1");
+        $('#modal_orbital').val("7s1");
+        abrir_modal();
+    });
 
   $('.window .close').click(function (e) {
     e.preventDefault();
