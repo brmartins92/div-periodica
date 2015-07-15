@@ -359,6 +359,60 @@ function modal(){
         abrir_modal();
     });
     
+    $('#btn_sc').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('Escândio');
+        $('#modal_num_atomico').val('21');
+        $('#modal_img').html("<img src='imagens/escandio.jpg' id='img_modal'>");
+        $('#modal_origem').val('Natural');
+        $('#modal_descoberto').val("Nilson / 1876");
+        $('#modal_origem_nome').val("do latim científico 'scandĭum', e este de 'Scandi', Escandinávia)");
+        $('#modal_massa_atomica').val("44,955912(6)");
+        $('#modal_volume_atomico').val("15 cm³/mol");
+        $('#modal_densidade').val("3,0 g/cm³");
+        $('#modal_fusao').val("1539 °C");
+        $('#modal_ebulicao').val("2832 °C");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("Hexagonal Compacta");
+        $('#modal_raio_atomico').val("1,62 Å");
+        $('#modal_eletronegatividade').val("1,36");
+        $('#modal_ionizacao').val("6,54 V");
+        $('#modal_raio_covalente').val("1,44 Å");
+        $('#modal_raio_ionico').val("0,81E+3 Å");
+        $('#modal_camadas').val("2,8,9,2");
+        $('#modal_condutividade_aletrica').val("1,5 E6/ohms/m");
+        $('#modal_configuracao_eletronica').val("[Ar] 3d1,4s2");
+        $('#modal_orbital').val("3d1");
+        abrir_modal();
+    });
+    
+    $('#btn_y').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('Ítrio ');
+        $('#modal_num_atomico').val('39');
+        $('#modal_img').html("<img src='imagens/itrio.jpg' id='img_modal'>");
+        $('#modal_origem').val('Natural');
+        $('#modal_descoberto').val("Gadolin / 1794");
+        $('#modal_origem_nome').val("---");
+        $('#modal_massa_atomica').val("88,90585(2)");
+        $('#modal_volume_atomico').val("19,8 cm³/mol");
+        $('#modal_densidade').val("4,5 g/cm³");
+        $('#modal_fusao').val("1523 °C");
+        $('#modal_ebulicao').val("3337 °C");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("Hexagonal Compacta");
+        $('#modal_raio_atomico').val("1,78 Å");
+        $('#modal_eletronegatividade').val("1,22");
+        $('#modal_ionizacao').val("6,38 V");
+        $('#modal_raio_covalente').val("1,62 Å");
+        $('#modal_raio_ionico').val("0,93E+3 Å");
+        $('#modal_camadas').val("2,8,18,9,2");
+        $('#modal_condutividade_aletrica').val("---");
+        $('#modal_configuracao_eletronica').val("[Kr] 4d1,5s2");
+        $('#modal_orbital').val("4d1");
+        abrir_modal();
+    });
+    
 
   $('.window .close').click(function (e) {
     e.preventDefault();
