@@ -78,7 +78,6 @@ margin:0 auto;
 }
 
 .elemento:active{
-
 position:relative;
 top:2px;
 }
@@ -233,4 +232,11 @@ top:2px;
 }
 .size1{
 	font-size: 12px;
+}
+
+#btn_serie_Lantanidios:active{
+	top: 0px !important;
+}
+#btn_serie_actinideos:active{
+	top: 0px !important;
 }
