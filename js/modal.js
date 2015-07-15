@@ -413,6 +413,142 @@ function modal(){
         abrir_modal();
     });
     
+    $('#btn_y').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('Ítrio ');
+        $('#modal_num_atomico').val('39');
+        $('#modal_img').html("<img src='imagens/itrio.jpg' id='img_modal'>");
+        $('#modal_origem').val('Natural');
+        $('#modal_descoberto').val("Gadolin / 1794");
+        $('#modal_origem_nome').val("---");
+        $('#modal_massa_atomica').val("88,90585(2)");
+        $('#modal_volume_atomico').val("19,8 cm³/mol");
+        $('#modal_densidade').val("4,5 g/cm³");
+        $('#modal_fusao').val("1523 °C");
+        $('#modal_ebulicao').val("3337 °C");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("Hexagonal Compacta");
+        $('#modal_raio_atomico').val("1,78 Å");
+        $('#modal_eletronegatividade').val("1,22");
+        $('#modal_ionizacao').val("6,38 V");
+        $('#modal_raio_covalente').val("1,62 Å");
+        $('#modal_raio_ionico').val("0,93E+3 Å");
+        $('#modal_camadas').val("2,8,18,9,2");
+        $('#modal_condutividade_aletrica').val("---");
+        $('#modal_configuracao_eletronica').val("[Kr] 4d1,5s2");
+        $('#modal_orbital').val("4d1");
+        abrir_modal();
+    });
+    
+    $('#btn_ti').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('Titânio');
+        $('#modal_num_atomico').val('22');
+        $('#modal_img').html("<img src='imagens/titanio.jpg' id='img_modal'>");
+        $('#modal_origem').val('Natural');
+        $('#modal_descoberto').val("Gregor / 1791");
+        $('#modal_origem_nome').val("Do lat. cient. titanium < mitônimo grego Titán");
+        $('#modal_massa_atomica').val("47,867(1)");
+        $('#modal_volume_atomico').val("10,6 cm³/mol");
+        $('#modal_densidade').val("4,50 g/cm³");
+        $('#modal_fusao').val("1660 °C");
+        $('#modal_ebulicao').val("3287 °C");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("Hexagonal Compacta");
+        $('#modal_raio_atomico').val("1,45 Å");
+        $('#modal_eletronegatividade').val("1,54");
+        $('#modal_ionizacao').val("6,82 V");
+        $('#modal_raio_covalente').val("1,32 Å");
+        $('#modal_raio_ionico').val("0,90E+2 / 0,68E+4 Å");
+        $('#modal_camadas').val("2,8,10,2");
+        $('#modal_condutividade_aletrica').val("2,6 E6/ohms/m");
+        $('#modal_configuracao_eletronica').val("[Ar] 3d2,4s2");
+        $('#modal_orbital').val("3d2");
+        abrir_modal();
+    });
+
+    $('#btn_zr').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('Zircônio');
+        $('#modal_num_atomico').val('40');
+        $('#modal_img').html("<img src='imagens/zirconio.jpg' id='img_modal'>");
+        $('#modal_origem').val('Natural');
+        $('#modal_descoberto').val("Klaproth / 1789");
+        $('#modal_origem_nome').val("Do lat. cient. zirconium, baseado no fr. zircon");
+        $('#modal_massa_atomica').val("91,224(2)");
+        $('#modal_volume_atomico').val("14,1 cm³/mol");
+        $('#modal_densidade').val("6,49 g/cm³");
+        $('#modal_fusao').val("1852 ± 2 °C");
+        $('#modal_ebulicao').val("4377 °C");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("Hexagonal Compacta");
+        $('#modal_raio_atomico').val("1,6 Å");
+        $('#modal_eletronegatividade').val("1,33");
+        $('#modal_ionizacao').val("6,84 V");
+        $('#modal_raio_covalente').val("1,45 Å");
+        $('#modal_raio_ionico').val("0,80E+4 Å");
+        $('#modal_camadas').val("2,8,18,10,2");
+        $('#modal_condutividade_aletrica').val("1,8 E6/ohms/m");
+        $('#modal_configuracao_eletronica').val("[Kr] 4d2,5s2");
+        $('#modal_orbital').val("4d2");
+        abrir_modal();
+    });
+    $('#btn_hf').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('Háfnio');
+        $('#modal_num_atomico').val('72');
+        $('#modal_img').html("<img src='imagens/hafnio.jpg' id='img_modal'>");
+        $('#modal_origem').val('Natural');
+        $('#modal_descoberto').val("Coster e Hevesy / 1923");
+        $('#modal_origem_nome').val("Do latim cient. hafnium < lat. Hafnia, nome latino de Copenhague (Dinamarca)");
+        $('#modal_massa_atomica').val("178,49(2)");
+        $('#modal_volume_atomico').val("113,6 cm³/mol");
+        $('#modal_densidade').val("13,1 g/cm³");
+        $('#modal_fusao').val("2150 °C");
+        $('#modal_ebulicao').val("5400 °C");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("Hexagonal Compacta");
+        $('#modal_raio_atomico').val("1,67 Å");
+        $('#modal_eletronegatividade').val("1,3");
+        $('#modal_ionizacao').val("6,65 V");
+        $('#modal_raio_covalente').val("1,44 Å");
+        $('#modal_raio_ionico').val("0,81E+4 Å");
+        $('#modal_camadas').val("2,8,18,32,10,2");
+        $('#modal_condutividade_aletrica').val("1,5 E6/ohms/m");
+        $('#modal_configuracao_eletronica').val("[Xe] 4f14,5d2,6s2");
+        $('#modal_orbital').val("5d2");
+        abrir_modal();
+    });
+
+    $('#btn_rf').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('Rutherfórdio');
+        $('#modal_num_atomico').val('104');
+        $('#modal_img').html("<img src='imagens/sem_foto.jpg' id='img_modal'>");
+        $('#modal_origem').val('Artificial');
+        $('#modal_descoberto').val("Lawrence em Berkeley - EUA e Dubna - Rússia / 1964");
+        $('#modal_origem_nome').val("Homenagem ao cientista britânico Ernest Rutherford");
+        $('#modal_massa_atomica').val("267,1215*");
+        $('#modal_volume_atomico').val("");
+        $('#modal_densidade').val("");
+        $('#modal_fusao').val("");
+        $('#modal_ebulicao').val("");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("Hexagonal Compacta");
+        $('#modal_raio_atomico').val("");
+        $('#modal_eletronegatividade').val("");
+        $('#modal_ionizacao').val("");
+        $('#modal_raio_covalente').val("");
+        $('#modal_raio_ionico').val("");
+        $('#modal_camadas').val("2,8,18,32,32,10,2");
+        $('#modal_condutividade_aletrica').val("");
+        $('#modal_configuracao_eletronica').val("[Rn] 5f14,6d2,7s2");
+        $('#modal_orbital').val("6d2");
+        abrir_modal();
+    });
+    
+    
+
 
   $('.window .close').click(function (e) {
     e.preventDefault();
