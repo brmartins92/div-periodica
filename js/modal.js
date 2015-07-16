@@ -547,8 +547,115 @@ function modal(){
         abrir_modal();
     });
     
+    $('#btn_v').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('Vanádio');
+        $('#modal_num_atomico').val('23');
+        $('#modal_img').html("<img src='imagens/vanadio.jpg' id='img_modal'>");
+        $('#modal_origem').val('Natural');
+        $('#modal_descoberto').val("Del Rio / 1801");
+        $('#modal_origem_nome').val("Do lat. cient. vanadium < Vanadis, nome latino da deusa Fréia, da mitologia escandinava, + -ium");
+        $('#modal_massa_atomica').val("50,9415(1)");
+        $('#modal_volume_atomico').val("8,35 cm³/mol");
+        $('#modal_densidade').val("5,8 g/cm³");
+        $('#modal_fusao').val("1890 ± 10 °C");
+        $('#modal_ebulicao').val("3380 °C");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("Cúbica de Corpo Centrado");
+        $('#modal_raio_atomico').val("1,34 Å");
+        $('#modal_eletronegatividade').val("1,63");
+        $('#modal_ionizacao').val("6,74 V");
+        $('#modal_raio_covalente').val("1,22 Å");
+        $('#modal_raio_ionico').val("0,74E+3 / 0,59E+5 Å");
+        $('#modal_camadas').val("2,8,11,2");
+        $('#modal_condutividade_aletrica').val("4 E6/ohms/m");
+        $('#modal_configuracao_eletronica').val("[Ar] 3d3,4s2");
+        $('#modal_orbital').val("3d3");
+        abrir_modal();
+    });
     
+    $('#btn_nb').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('Nióbio');
+        $('#modal_num_atomico').val('41');
+        $('#modal_img').html("<img src='imagens/niobio.jpg' id='img_modal'>");
+        $('#modal_origem').val('Natural');
+        $('#modal_descoberto').val("Hatchett / 1801");
+        $('#modal_origem_nome').val("Do mitônimo Níobe + -io²");
+        $('#modal_massa_atomica').val("92,90638(2)");
+        $('#modal_volume_atomico').val("10,8 cm³/mol");
+        $('#modal_densidade').val("8,55 g/cm³");
+        $('#modal_fusao').val("2468 ± 10 °C");
+        $('#modal_ebulicao').val("4927 °C");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("Cúbica de Corpo Centrado");
+        $('#modal_raio_atomico').val("1,46 Å");
+        $('#modal_eletronegatividade').val("1,6");
+        $('#modal_ionizacao').val("6,88 V");
+        $('#modal_raio_covalente').val("1,34 Å");
+        $('#modal_raio_ionico').val("0,70E+5 Å");
+        $('#modal_camadas').val("2,8,18,12,1");
+        $('#modal_condutividade_aletrica').val("2,3 E6/ohms/m");
+        $('#modal_configuracao_eletronica').val("[Kr] 4d4,5s1");
+        $('#modal_orbital').val("4d4");
+        abrir_modal();
+    });
 
+    $('#btn_ta').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('Tântalo');
+        $('#modal_num_atomico').val('73');
+        $('#modal_img').html("<img src='imagens/tantalo.jpg' id='img_modal'>");
+        $('#modal_origem').val('Natural');
+        $('#modal_descoberto').val("Ekeberg / 1801");
+        $('#modal_origem_nome').val("Do mitônimo Tântalo");
+        $('#modal_massa_atomica').val("180,94788(2)");
+        $('#modal_volume_atomico').val("10,9 cm³/mol");
+        $('#modal_densidade').val("16,6 g/cm³");
+        $('#modal_fusao').val("2996 °C");
+        $('#modal_ebulicao').val("5425 ± 100 °C");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("Cúbica de Corpo Centrado");
+        $('#modal_raio_atomico').val("1,49 Å");
+        $('#modal_eletronegatividade').val("1,5");
+        $('#modal_ionizacao').val("7,89 V");
+        $('#modal_raio_covalente').val("1,34 Å");
+        $('#modal_raio_ionico').val("0,73E+5 Å");
+        $('#modal_camadas').val("2,8,18,32,11,2");
+        $('#modal_condutividade_aletrica').val("3,4 E6/ohms/m");
+        $('#modal_configuracao_eletronica').val("[Xe] 4f14,5d3,6s2");
+        $('#modal_orbital').val("5d3");
+        abrir_modal();
+    });
+    
+    $('#btn_db').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('Dúbnio');
+        $('#modal_num_atomico').val('105');
+        $('#modal_img').html("<img src='imagens/dubnio.jpg' id='img_modal'>");
+        $('#modal_origem').val('Artificial');
+        $('#modal_descoberto').val("Lawrence Berkeley - EUA e Dubna - Rússia / 1967");
+        $('#modal_origem_nome').val("Homenagem a Dubna na Rússia");
+        $('#modal_massa_atomica').val("268,1255*");
+        $('#modal_volume_atomico').val("");
+        $('#modal_densidade').val("");
+        $('#modal_fusao').val("");
+        $('#modal_ebulicao').val("");
+        $('#modal_cntp').val("");
+        $('#modal_rede_critalografica').val("");
+        $('#modal_raio_atomico').val("");
+        $('#modal_eletronegatividade').val("");
+        $('#modal_ionizacao').val("");
+        $('#modal_raio_covalente').val("");
+        $('#modal_raio_ionico').val("");
+        $('#modal_camadas').val("2,8,18,32,32,11,2");
+        $('#modal_condutividade_aletrica').val("");
+        $('#modal_configuracao_eletronica').val("[Rn] 5f14,6d3,7s2");
+        $('#modal_orbital').val("6d3");
+        abrir_modal();
+    });
+    
+    
 
   $('.window .close').click(function (e) {
     e.preventDefault();
