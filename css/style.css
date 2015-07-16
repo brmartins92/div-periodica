@@ -22,8 +22,8 @@ padding:20px;
 
 /* Personalize a janela modal aqui. Você pode adicionar uma imagem de fundo. */
 #boxes #dialog {
-width:900px;
-height:450px;
+width:835px;
+height:368px;
 background-color: #C0C0C0;
 margin-left: 14%;
 margin-top: 30px;
@@ -40,6 +40,10 @@ text-align:right;
 .lbinfo{
 	float: left;
 	width: 350px;
+}
+.lbinfo1{
+	float: left;
+	width: 277px;
 }
 #barra_modal{
 	height: 50px;
