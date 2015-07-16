@@ -655,6 +655,195 @@ function modal(){
         abrir_modal();
     });
     
+    $('#btn_cr').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('Crômio');
+        $('#modal_num_atomico').val('24');
+        $('#modal_img').html("<img src='imagens/cromio.jpg' id='img_modal'>");
+        $('#modal_origem').val('Natural');
+        $('#modal_descoberto').val("Vauquelin / 1797");
+        $('#modal_origem_nome').val("Do gr. chrôma, 'cor'");
+        $('#modal_massa_atomica').val("51,9961(6)");
+        $('#modal_volume_atomico').val("7,23 cm³/mol");
+        $('#modal_densidade').val("7,19 g/cm³");
+        $('#modal_fusao').val("1857 °C");
+        $('#modal_ebulicao').val("2672 °C");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("Cúbica de Corpo Centrado");
+        $('#modal_raio_atomico').val("1,3 Å");
+        $('#modal_eletronegatividade').val("1,66");
+        $('#modal_ionizacao').val("6,766 V");
+        $('#modal_raio_covalente').val("1,18 Å");
+        $('#modal_raio_ionico').val("0,69E+3 / 0,52E+6 Å");
+        $('#modal_camadas').val("2,8,13,1");
+        $('#modal_condutividade_aletrica').val("7,9 E6/ohms/m");
+        $('#modal_configuracao_eletronica').val("[Ar] 3d5,4s1");
+        $('#modal_orbital').val("3d5");
+        abrir_modal();
+    });
+    
+    $('#btn_mo').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('Molibdênio');
+        $('#modal_num_atomico').val('42');
+        $('#modal_img').html("<img src='imagens/molibdenio.jpg' id='img_modal'>");
+        $('#modal_origem').val('Natural');
+        $('#modal_descoberto').val("Scheele / 1778");
+        $('#modal_origem_nome').val("Do grego. molýbdaina, 'massa de chumbo', pelo lat. molybdaena + -io³");
+        $('#modal_massa_atomica').val("95,94(2)");
+        $('#modal_volume_atomico').val("9,4 cm³/mol");
+        $('#modal_densidade').val("10,2 g/cm³");
+        $('#modal_fusao').val("2617 °C");
+        $('#modal_ebulicao').val("4612 °C");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("Cúbica de Corpo Centrado");
+        $('#modal_raio_atomico').val("1,39 Å");
+        $('#modal_eletronegatividade').val("2,16");
+        $('#modal_ionizacao').val("7,099 V");
+        $('#modal_raio_covalente').val("1,30 Å");
+        $('#modal_raio_ionico').val("0,68E+4 / 0,62E+6 Å");
+        $('#modal_camadas').val("2,8,18,13,1");
+        $('#modal_condutividade_aletrica').val("6,6 E6/ohms/m");
+        $('#modal_configuracao_eletronica').val("[Kr] 4d5,5s1");
+        $('#modal_orbital').val("4d5");
+        abrir_modal();
+    });
+    
+    $('#btn_w').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('Tungstênio ');
+        $('#modal_num_atomico').val('74');
+        $('#modal_img').html("<img src='imagens/tungstenio.jpg' id='img_modal'>");
+        $('#modal_origem').val('Natural');
+        $('#modal_descoberto').val("d´Elheiyar / 1783");
+        $('#modal_origem_nome').val("Do sueco tung, 'pesado', + sten, 'pedra', + -io³. Conhecido também por Volfrâmio ");
+        $('#modal_massa_atomica').val("183,84(1)");
+        $('#modal_volume_atomico').val("9,53 cm³/mol");
+        $('#modal_densidade').val("19,3 g/cm³");
+        $('#modal_fusao').val("3410 ± 20 °C");
+        $('#modal_ebulicao').val("5660 °C");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("Cúbica de Corpo Centrado");
+        $('#modal_raio_atomico').val("1,41 Å");
+        $('#modal_eletronegatividade').val("2,36");
+        $('#modal_ionizacao').val("7,98 V");
+        $('#modal_raio_covalente').val("1,30 Å");
+        $('#modal_raio_ionico').val("0,64E+4 / 0,68E+6 Å");
+        $('#modal_camadas').val("2,8,18,32,12,2");
+        $('#modal_condutividade_aletrica').val("8,1 E6/ohms/m");
+        $('#modal_configuracao_eletronica').val("[Xe] 4f14,5d4,6s2");
+        $('#modal_orbital').val("5d4");
+        abrir_modal();
+    });
+        
+    $('#btn_w').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('Tungstênio ');
+        $('#modal_num_atomico').val('74');
+        $('#modal_img').html("<img src='imagens/tungstenio.jpg' id='img_modal'>");
+        $('#modal_origem').val('Natural');
+        $('#modal_descoberto').val("d´Elheiyar / 1783");
+        $('#modal_origem_nome').val("Do sueco tung, 'pesado', + sten, 'pedra', + -io³. Conhecido também por Volfrâmio ");
+        $('#modal_massa_atomica').val("183,84(1)");
+        $('#modal_volume_atomico').val("9,53 cm³/mol");
+        $('#modal_densidade').val("19,3 g/cm³");
+        $('#modal_fusao').val("3410 ± 20 °C");
+        $('#modal_ebulicao').val("5660 °C");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("Cúbica de Corpo Centrado");
+        $('#modal_raio_atomico').val("1,41 Å");
+        $('#modal_eletronegatividade').val("2,36");
+        $('#modal_ionizacao').val("7,98 V");
+        $('#modal_raio_covalente').val("1,30 Å");
+        $('#modal_raio_ionico').val("0,64E+4 / 0,68E+6 Å");
+        $('#modal_camadas').val("2,8,18,32,12,2");
+        $('#modal_condutividade_aletrica').val("8,1 E6/ohms/m");
+        $('#modal_configuracao_eletronica').val("[Xe] 4f14,5d4,6s2");
+        $('#modal_orbital').val("5d4");
+        abrir_modal();
+    });
+    
+    $('#btn_sg').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('TSeabórgio');
+        $('#modal_num_atomico').val('106');
+        $('#modal_img').html("<img src='imagens/sem_foto.jpg' id='img_modal'>");
+        $('#modal_origem').val('Artificial');
+        $('#modal_descoberto').val("Lawrence em Berkeley - EUA e Dubna - Rússia / 1974");
+        $('#modal_origem_nome').val("Homenagem ao físico norte-americano Glenn T. Seaborg");
+        $('#modal_massa_atomica').val("271,1335*");
+        $('#modal_volume_atomico').val("");
+        $('#modal_densidade').val("");
+        $('#modal_fusao').val("");
+        $('#modal_ebulicao').val("");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("");
+        $('#modal_raio_atomico').val("");
+        $('#modal_eletronegatividade').val("");
+        $('#modal_ionizacao').val("");
+        $('#modal_raio_covalente').val("");
+        $('#modal_raio_ionico').val("");
+        $('#modal_camadas').val("2,8,18,32,32,12,2");
+        $('#modal_condutividade_aletrica').val("");
+        $('#modal_configuracao_eletronica').val("");
+        $('#modal_orbital').val("5d4");
+        abrir_modal();
+    });
+    
+    $('#btn_sg').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('TSeabórgio');
+        $('#modal_num_atomico').val('106');
+        $('#modal_img').html("<img src='imagens/sem_foto.jpg' id='img_modal'>");
+        $('#modal_origem').val('Artificial');
+        $('#modal_descoberto').val("Lawrence em Berkeley - EUA e Dubna - Rússia / 1974");
+        $('#modal_origem_nome').val("Homenagem ao físico norte-americano Glenn T. Seaborg");
+        $('#modal_massa_atomica').val("271,1335*");
+        $('#modal_volume_atomico').val("");
+        $('#modal_densidade').val("");
+        $('#modal_fusao').val("");
+        $('#modal_ebulicao').val("");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("");
+        $('#modal_raio_atomico').val("");
+        $('#modal_eletronegatividade').val("");
+        $('#modal_ionizacao').val("");
+        $('#modal_raio_covalente').val("");
+        $('#modal_raio_ionico').val("");
+        $('#modal_camadas').val("2,8,18,32,32,12,2");
+        $('#modal_condutividade_aletrica').val("");
+        $('#modal_configuracao_eletronica').val("");
+        $('#modal_orbital').val("5d4");
+        abrir_modal();
+    });
+    
+    $('#btn_sg').click(function(e) {
+        e.preventDefault();
+        $('#title_modal').text('Manganês');
+        $('#modal_num_atomico').val('25');
+        $('#modal_img').html("<img src='imagens/sem_foto.jpg' id='img_modal'>");
+        $('#modal_origem').val('Natural');
+        $('#modal_descoberto').val("Gahn, Scheele e Bergman / 1774");
+        $('#modal_origem_nome').val("");
+        $('#modal_massa_atomica').val("54,938045(5)");
+        $('#modal_volume_atomico').val("7,39 cm³/mol");
+        $('#modal_densidade').val("7,43 g/cm³");
+        $('#modal_fusao').val("1245 °C");
+        $('#modal_ebulicao').val("1962 °C");
+        $('#modal_cntp').val("Sólido");
+        $('#modal_rede_critalografica').val("Cúbica");
+        $('#modal_raio_atomico').val("1,35 Å");
+        $('#modal_eletronegatividade').val("1,55");
+        $('#modal_ionizacao').val("7,435 V");
+        $('#modal_raio_covalente').val("1,17 Å");
+        $('#modal_raio_ionico').val("0,80E+2 / 0,46E+7 Å");
+        $('#modal_camadas').val("2,8,13,2");
+        $('#modal_condutividade_aletrica').val('0,5 E6/ohms/m');
+        $('#modal_configuracao_eletronica').val("[Ar] 3d5,4s2");
+        $('#modal_orbital').val("3d5");
+        abrir_modal();
+    });
+    
     
 
   $('.window .close').click(function (e) {
