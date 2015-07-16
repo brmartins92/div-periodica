@@ -90,7 +90,6 @@ top:2px;
   width: 62px;
 }
 .name_element{
-	
 	color: black;
 	font-style:normal;
 	font: bold 10px Times New Roman, Geneva, sans-serif;
@@ -122,7 +121,15 @@ top:2px;
 	background-color:#D2691E;
 }
 .metais_alcalinos_terrosos{
-	background-color:#FFFF00;
+	/*background-color:#FFFF00;8*/
+background: #fefcea; /* Old browsers */
+background: -moz-linear-gradient(top, #fefcea 35%, #f1da36 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(35%,#fefcea), color-stop(100%,#f1da36)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #fefcea 35%,#f1da36 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #fefcea 35%,#f1da36 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #fefcea 35%,#f1da36 100%); /* IE10+ */
+background: linear-gradient(to bottom, #fefcea 35%,#f1da36 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 ); /* IE6-9 */
 }
 .metais_transicao{
 	background-color: #E6E6FA;
